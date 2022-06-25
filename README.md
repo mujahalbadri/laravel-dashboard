@@ -19,12 +19,26 @@
 8. Jalankan aplikasi web server
 9. Buat database baru dengan nama <code>laravel-dashboard</code>
 10. Konfigurasi database di <code>.env</code> dengan contoh seperti berikut :
+
 -   DB_CONNECTION=localhost
 -   DB_HOST=127.0.0.1
 -   DB_PORT=3306
 -   DB_DATABASE=laravel-dashboard
 -   DB_USERNAME=root
 -   DB_PASSWORD=
+
 11. Ketik <code>php artisan migrate --seed</code> pada terminal
-12. jalankan dengan <code>php artisan serve</code>
+12. Jalankan dengan <code>php artisan serve</code>
 13. Buka browser dan ketik url <code>http://127.0.0.1:8000/</code>
+
+## Login
+
+1. Role Staff
+
+-   email : staff@gmail.com
+-   password : staff123
+
+2. Role Owner
+
+-   email : owner@gmail.com
+-   password : owner123
